@@ -718,6 +718,11 @@ h3 {
   cursor: pointer;
 }
 @media (min-width: 320px) {
+  .container {
+  }
+
+  /* Header */
+
   .nav-list {
     display: none;
   }
@@ -726,5 +731,104 @@ h3 {
   }
   .logo {
     padding: 24px 0;
+  }
+
+  /* Section 1 */
+
+  .dark-bg {
+    min-width: 320px;
+    padding: 94px 0;
+  }
+  .sec-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+  }
+
+  /* Section 2 */
+  .section-two {
+    padding: 60px 0;
+  }
+  .list-about {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 72px;
+  }
+
+  .list-two-item {
+    justify-content: center;
+    width: 100%;
+  }
+  .svg-cont {
+    display: none;
+  }
+  .sec-two-list-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  .sec-two-list-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+  }
+
+  /* Section 3 */
+  .team-cont {
+    flex-shrink: 0;
+  }
+  .team-list {
+    flex-direction: column;
+  }
+  .workers-cont {
+    display: flex;
+    width: 264px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .workers {
+    display: flex;
+    width: 232px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+  }
+
+  /* Section 4 */
+
+  .list-portfolio {
+    gap: 0;
+  }
+  .portfolio {
+    text-align: center;
+    font-size: 36px;
+
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+  }
+  .app-cont {
+    display: flex;
+    width: 288px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .image-cont {
+    width: 288px;
+    height: 280px;
   }
 }
