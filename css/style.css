@@ -36,7 +36,7 @@ h3 {
   justify-content: space-between;
 }
 .container {
-  width: 1158px;
+  
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -120,6 +120,9 @@ h3 {
 
 .contacts-link:hover {
   color: #404bbf;
+}
+.menu-icon {
+  flex-shrink: 0;
 }
 /* .contacts-link:focus {
   color: #404bbf;
@@ -518,6 +521,7 @@ h3 {
 /* Modal window */
 
 .modal-cont {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -712,4 +716,18 @@ h3 {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+}
+@media (min-width: 320px) {
+  body {
+    width: 320px
+  }
+  .nav-list {
+    display: none;
+  }
+  .contacts-list {
+    display: none;
+  }
+  .logo {
+    padding: 24px 0;
+  }
 }
