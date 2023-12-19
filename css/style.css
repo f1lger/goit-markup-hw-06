@@ -36,7 +36,6 @@ h3 {
   justify-content: space-between;
 }
 .container {
-  
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -122,6 +121,8 @@ h3 {
   color: #404bbf;
 }
 .menu-icon {
+  box-sizing: content-box;
+  padding: 24px 0;
   flex-shrink: 0;
 }
 /* .contacts-link:focus {
@@ -583,8 +584,7 @@ h3 {
   fill: #000000;
 }
 .modal-button:focus,
-.modal-button:hover
-.modal-button-svg {
+.modal-button:hover .modal-button-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #ffffff;
 }
@@ -718,9 +718,6 @@ h3 {
   cursor: pointer;
 }
 @media (min-width: 320px) {
-  body {
-    width: 320px
-  }
   .nav-list {
     display: none;
   }
