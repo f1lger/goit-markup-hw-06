@@ -157,7 +157,7 @@ h3 {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office-mob.jpg);
+    url(../images/people-office-mob.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1065,7 +1065,7 @@ h3 {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office-tab.jpg);
+      url(../images/people-office-tab.jpg);
   }
   .sec-title {
     font-size: 56px;
