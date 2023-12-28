@@ -136,6 +136,8 @@ h3 {
 }
 .menu-button {
   border: none;
+  display: flex;
+  align-items: center;
 }
 .menu-icon {
   box-sizing: content-box;
@@ -159,7 +161,6 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 768px;
 }
 .container.section-one-cont {
 }
@@ -1119,7 +1120,8 @@ h3 {
   .subscribe-form {
     flex-direction: row;
   }
-  /* Modal */
+}
+/* Modal */
 @media screen and (min-resolution: 192dpi) and (min-width: 1158px),
   screen and (min-resolution: 2dppx) and (min-width: 1158px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
