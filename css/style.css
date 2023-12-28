@@ -283,6 +283,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  row-gap: 72px;
 }
 .workers-cont {
   display: inline-flex;
