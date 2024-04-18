@@ -27,14 +27,14 @@
         <nav class="nav-cont">
           <a class="logo" href="/index.html">Web<span>Studio</span></a>
           <ul class="nav-list">
-            <li>
+            <li class="list-item">
               <a class="list-link current" href="./index.html">Studio</a>
             </li>
-            <li>
-              <a class="list-link" href="">Portfolio</a>
+            <li class="list-item">
+              <a class="list-link" href="#portfolio">Portfolio</a>
             </li>
-            <li>
-              <a class="list-link" href="">Contacts</a>
+            <li class="list-item">
+              <a class="list-link" href="#footer">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -137,7 +137,7 @@
 
       <!-- SECTION 3 -->
 
-      <section class="team-cont">
+      <section id="Our-Team" class="team-cont">
         <div class="container section-three-cont">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -328,7 +328,7 @@
 
       <!-- SECTION 4 -->
 
-      <section class="section-four">
+      <section id="portfolio" class="section-four">
         <div class="container section-four-cont">
           <h2 class="portfolio">Our Portfolio</h2>
           <ul class="list-portfolio">
@@ -579,7 +579,7 @@
 
     <!-- FOOTER -->
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="container footer-cont">
         <div class="aside">
           <a class="footer-logo-cont" href="./index.html"
@@ -648,7 +648,7 @@
 
     <!-- Model Window -->
 
-    <div class="modal-cont in-open">
+    <div class="modal-cont is-close">
       <div class="modal-window">
         <button type="button" class="modal-button">
           <svg width="8" height="8" class="modal-button-svg">
@@ -752,13 +752,13 @@
         <div class="backdrop-nav">
           <ul class="backdrop-nav-list">
             <li class="backdrop-nav-item">
-              <a class="backdrop-nav-item-link current" href="">Studio</a>
+              <a class="backdrop-nav-item-link current" href="#Our-Team">Studio</a>
             </li>
             <li class="backdrop-nav-item">
-              <a class="backdrop-nav-item-link" href="">Portfolio</a>
+              <a class="backdrop-nav-item-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="backdrop-nav-item">
-              <a class="backdrop-nav-item-link" href="">Contacts</a>
+              <a class="backdrop-nav-item-link" href="#footer">Contacts</a>
             </li>
           </ul>
         </div>
@@ -810,5 +810,6 @@
         </div>
       </div>
     </div>
+    <script type="module" src="main.js"></script>
   </body>
 </html>
